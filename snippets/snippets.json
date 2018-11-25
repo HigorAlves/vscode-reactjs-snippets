@@ -1,0 +1,16 @@
+{
+  "Print log to console": {
+    "prefix": "clog",
+    "description": "Simple 'console.log();' print",
+    "body": [
+      "console.log($1);$0"
+    ]
+  },
+  "Print log with message to console": {
+    "prefix": "clog",
+    "description": "Simple 'console.log();' print",
+    "body": [
+      "console.log('$1');$0"
+    ]
+  }
+}

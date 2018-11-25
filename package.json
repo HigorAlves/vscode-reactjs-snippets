@@ -1,0 +1,35 @@
+{
+    "name": "vscode-reactjs-bootstrap-snippets",
+    "displayName": "vscode-reactjs-bootstrap-snippets",
+    "description": "A Visual Studio Code snippet to code with ReactJS + Bootstrap library",
+    "icon": "",
+    "publisher": "higoralves",
+    "author": {
+        "name": "Higor Alves",
+        "email": "higorhaalves@gmail.com"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HigorAlves/vscode-reactjs-bootstrap-snippets"
+    },
+    "license": "MIT"
+}
