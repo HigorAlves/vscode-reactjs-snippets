@@ -5,3 +5,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.0.1]
 - Initial release of ReactJS + Bootstrap extension
+
+## [0.0.2]
+- Extension name changend
