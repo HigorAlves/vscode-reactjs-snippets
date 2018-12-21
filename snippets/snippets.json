@@ -19,5 +19,12 @@
     "body": [
       "import React from 'react';$0"
     ]
+  },
+  "Import React with Component": {
+    "prefix": "imrc",
+    "description": "Import React with Component Class",
+    "body": [
+      "import React, { Component} from 'react';$0"
+    ]
   }
 }
