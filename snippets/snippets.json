@@ -6,11 +6,11 @@
       "console.log($1);$0"
     ]
   },
-  "Print log with message to console": {
-    "prefix": "clog",
-    "description": "Simple 'console.log();' print",
+  "Print warn to console": {
+    "prefix": "cwarn",
+    "description": "Simple 'console.warn();' print",
     "body": [
-      "console.log('$1');$0"
+      "console.warn('$1');$0"
     ]
   }
 }
