@@ -26,5 +26,17 @@
     "body": [
       "import React, { Component} from 'react';$0"
     ]
+  },
+  "Create React class that extends Component": {
+    "prefix": "ccc",
+    "description": "Create a class that extends Component",
+    "body": [
+      "class $1 extends Component {",
+      "render() {",
+      "return($0);",
+      "}",
+      "}",
+      "export default $1;"
+    ]
   }
 }
