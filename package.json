@@ -1,7 +1,7 @@
 {
     "name": "vscode-reactjs-redux-router-snippets",
     "displayName": "ReactJS usefull snippets",
-    "description": "Visual Studio Code Snippets to use for Reactjs and Redux + React Router DOM",
+    "description": "Visual Studio Code Snippets to use for Reactjs + Redux + React Router DOM",
     "icon": "",
     "publisher": "higoralves",
     "author": {
