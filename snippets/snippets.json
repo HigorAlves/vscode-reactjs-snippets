@@ -12,5 +12,12 @@
     "body": [
       "console.warn('$1');$0"
     ]
+  },
+  "Import React": {
+    "prefix": "imr",
+    "description": "Only import React to your project",
+    "body": [
+      "import React from 'react';$0"
+    ]
   }
 }
