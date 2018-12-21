@@ -1,0 +1,9 @@
+{
+  "ComponentDidMount": {
+    "prefix": "cdm",
+    "description": "The componentDidMount() method runs after the component output has been rendered to the DOM",
+    "body": [
+      "componentDidMount(){$0}"
+    ]
+  },
+}
