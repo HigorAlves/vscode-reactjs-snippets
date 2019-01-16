@@ -3,6 +3,9 @@ All notable changes to the "vscode-reactjs-bootstrap-snippets" extension will be
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.1]
+- Lifecicles init
+
 ## [0.1.0]
 - Added Extesion icon
 - Life cycle snippets for ReactJS
