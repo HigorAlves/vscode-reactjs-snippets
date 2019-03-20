@@ -1,9 +1,30 @@
 {
-  "ComponentDidMount": {
-    "prefix": "cdm",
-    "description": "The componentDidMount() method runs after the component output has been rendered to the DOM",
-    "body": [
-      "componentDidMount(){$0}"
-    ]
-  },
+	"componentDidMount": {
+		"prefix": "cdm",
+		"description": "The componentDidMount() method runs after the component output has been rendered to the DOM",
+		"body": [
+			"componentDidMount(){$0}"
+		]
+	},
+	"componentWillUnmount": {
+		"prefix": "cwm",
+		"description": "The componentWillUnmount() method runs after the component unmount on the browser",
+		"body": [
+			"componentWillUnmount(){$0}"
+		]
+	},
+	"componentDidUpdate": {
+		"prefix": "cdu",
+		"description": "The componentDidUpdate() method runs after the component update",
+		"body": [
+			"componentDidUpdate(){$0}"
+		]
+	},
+	"state": {
+		"prefix": "state",
+		"description": "Create the state for the class",
+		"body": [
+			"state = {$0}"
+		]
+	}
 }
