@@ -12,7 +12,10 @@ Visual Studio Code Snippets to use for Reactjs and Redux + React Router DOM
 | `imrc`  |        Import React with Component        |
 | `ccc`   | Create React class that extends Component |
 | `cfc`   |         Create function component         |
-| `cdm`   |         ComponentDidMount Function        |
+| `cdm`   |        ComponentDidMount Function         |
+| `cwm`   |       componentWillUnmount Function       |
+| `cdu`   |        componentDidUpdate Function        |
+| `state` |                state code                 |
 
 ## Requirements
 **Visual Studio Code**: ^1.29.0
