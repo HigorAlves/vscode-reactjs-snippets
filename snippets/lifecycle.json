@@ -1,23 +1,44 @@
 {
-	"componentDidMount": {
+	"componentWillMount()": {
+		"prefix": "cwm",
+		"description": "This method is called just before a component mounts on the DOM or the render method is called. After this method, the component gets mounted.",
+		"body": [
+			"componentWillMount(){$0}"
+		]
+	},
+	"componentDidMount()": {
 		"prefix": "cdm",
-		"description": "The componentDidMount() method runs after the component output has been rendered to the DOM",
+		"description": "This method is called after the component gets mounted on the DOM.",
 		"body": [
 			"componentDidMount(){$0}"
 		]
 	},
-	"componentWillUnmount": {
-		"prefix": "cwm",
-		"description": "The componentWillUnmount() method runs after the component unmount on the browser",
+	"shouldComponentUpdate()": {
+		"prefix": "scu",
+		"description": "This method determines whether the component should be updated or not.",
 		"body": [
-			"componentWillUnmount(){$0}"
+			"shouldComponentUpdate(){$0}"
 		]
 	},
-	"componentDidUpdate": {
+	"componentWillUpdate()": {
+		"prefix": "cwu",
+		"description": "It is called before the re-rendering of the component takes place. It is called once after the ‘shouldComponentUpdate’ method",
+		"body": [
+			"componentWillUpdate(){$0}"
+		]
+	},
+	"componentDidUpdate()": {
 		"prefix": "cdu",
-		"description": "The componentDidUpdate() method runs after the component update",
+		"description": "This method is called just after the re-rendering of the component. After the new (updated) component gets updated on the DOM, the ‘componentDidUpdate’ method is executed.",
 		"body": [
 			"componentDidUpdate(){$0}"
+		]
+	},
+	"componentWillUnmount()": {
+		"prefix": "cwu",
+		"description": "This method is called before the unmounting of the component takes place. ",
+		"body": [
+			"componentWillUnmount(){$0}"
 		]
 	},
 	"state": {

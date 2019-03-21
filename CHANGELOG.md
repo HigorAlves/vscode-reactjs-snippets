@@ -3,6 +3,10 @@ All notable changes to the "vscode-reactjs-bootstrap-snippets" extension will be
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.3]
+- All lifecycles added to extension
+- Create Class without constructor
+
 ## [0.1.2]
 - Added lifecycles and state
 
