@@ -66,7 +66,9 @@
 		"prefix": "state",
 		"description": "Create the state for the class",
 		"body": [
-			"state = {$0}"
+			"state = {",
+			"\t$0",
+			"}"
 		]
 	}
 }
