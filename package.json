@@ -8,7 +8,7 @@
 		"name": "Higor Alves",
 		"email": "higorhaalves@gmail.com"
 	},
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"engines": {
 		"vscode": "^1.29.0"
 	},
@@ -19,11 +19,19 @@
 		"snippets": [
 			{
 				"language": "javascript",
-				"path": "./snippets/snippets.json"
+				"path": "./snippets/common.json"
 			},
 			{
 				"language": "javascriptreact",
-				"path": "./snippets/snippets.json"
+				"path": "./snippets/common.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/console.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/console.json"
 			},
 			{
 				"language": "javascript",
@@ -32,7 +40,23 @@
 			{
 				"language": "javascriptreact",
 				"path": "./snippets/lifecycle.json"
-			}
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/reactnative.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/reactnative.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/styled-components.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/styled-components.json"
+			},
 		]
 	},
 	"repository": {

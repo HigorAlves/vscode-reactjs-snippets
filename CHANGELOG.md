@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.1.3]
 - All lifecycles added to extension
 - Create Class without constructor
+- Console error added
+- Separeted all snippets to your our file
+- Styled Componets snippets created
+- React Native initial
+- Common file to configure snippets that are identical on Native and JS
+- Added DEPRECATED tag on old lifecycles
 
 ## [0.1.2]
 - Added lifecycles and state

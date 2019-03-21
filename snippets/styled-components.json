@@ -1,0 +1,25 @@
+{
+	"Import styled component for ReactJS": {
+		"prefix": "impstyle",
+		"description": "Import styled component variable for ReactJS",
+		"body": [
+			"import styled from 'styled-components';$0"
+		]
+	},
+	"Import styled components for React Native": {
+		"prefix": "rnimpstyle",
+		"description": "Import styled components variable for React Native",
+		"body": [
+			"import styled from 'styled-components/native';$0"
+		]
+	},
+	"Create a styled component": {
+		"prefix": "stylecomp",
+		"description": "Create a component variable to use",
+		"body": [
+			"export const $1 = styled.$2`",
+			"\t$0",
+			"`"
+		]
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"Import React": {
+		"prefix": "imr",
+		"description": "Only import React to your project",
+		"body": [
+			"import React from 'react';$0"
+		]
+	},
+	"Import React with Component": {
+		"prefix": "imrc",
+		"description": "Import React with Component Class",
+		"body": [
+			"import React, { Component} from 'react';$0"
+		]
+	},
+	"Default import": {
+		"prefix": "imp",
+		"description": "Import a lib or a file",
+		"body": [
+			"import $1 from '$2';$0"
+		]
+	},
+	"Create React component that extends Component": {
+		"prefix": "ccc",
+		"description": "Create a component that extends Component with constructor",
+		"body": [
+			"import React, {Component} from 'react';",
+			"\nclass $1 extends Component {",
+			"\tconstructor(props){",
+			"\t\tsuper(props)",
+			"\t\tthis.state = {}",
+			"\t}",
+			"\trender() {",
+			"\t\treturn($0);",
+			"\t}",
+			"}",
+			"\nexport default $1;"
+		]
+	},
+	"Create React component that extends Component without Constructor": {
+		"prefix": "cc",
+		"description": "Create a component that without constructor",
+		"body": [
+			"import React, {Component} from 'react';",
+			"\nclass $1 extends Component {",
+			"\trender() {",
+			"\t\treturn($0);",
+			"\t}",
+			"}",
+			"\nexport default $1;"
+		]
+	},
+	"Create React stateless component": {
+		"prefix": "scomp",
+		"description": "Create React stateless component",
+		"body": [
+			"import React from 'react';",
+			"\nconst $1 = (props) => {",
+			"\treturn(",
+			"\t\t$0",
+			"\t)",
+			"}",
+			"\nexport default $1;"
+		]
+	}
+}

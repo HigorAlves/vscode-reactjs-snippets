@@ -1,0 +1,23 @@
+{
+	"Print log to console": {
+		"prefix": "clog",
+		"description": "Simple 'console.log();' print",
+		"body": [
+			"console.log($1);$0"
+		]
+	},
+	"Print warn to console": {
+		"prefix": "cwarn",
+		"description": "Simple 'console.warn();' print",
+		"body": [
+			"console.warn('$1');$0"
+		]
+	},
+	"Print error to console": {
+		"prefix": "cwarn",
+		"description": "Simple 'console.error();' print",
+		"body": [
+			"console.error('$1');$0"
+		]
+	}
+}
