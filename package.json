@@ -57,6 +57,46 @@
 				"language": "javascriptreact",
 				"path": "./snippets/styled-components.json"
 			},
+			{
+				"language": "typescript",
+				"path": "./snippets/common.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/common.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/console.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/console.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/lifecycle.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/lifecycle.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/reactnative.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/reactnative.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/styled-components.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/styled-components.json"
+			}
 		]
 	},
 	"repository": {
