@@ -43,14 +43,6 @@
 			},
 			{
 				"language": "javascript",
-				"path": "./snippets/reactnative.json"
-			},
-			{
-				"language": "javascriptreact",
-				"path": "./snippets/reactnative.json"
-			},
-			{
-				"language": "javascript",
 				"path": "./snippets/styled-components.json"
 			},
 			{
