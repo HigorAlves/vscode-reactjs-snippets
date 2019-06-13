@@ -1,25 +1,22 @@
 {
-	"Import styled component for ReactJS": {
-		"prefix": "impstyle",
-		"description": "Import styled component variable for ReactJS",
+	"Create a styled file": {
+		"prefix": "r-styled",
+		"description": "Create a styled file",
 		"body": [
-			"import styled from 'styled-components';$0"
+			"import styled from 'styled-components';\n",
+			"export const $1 = styled.$2`\n",
+			"\t$3\n",
+			"`;"
 		]
 	},
-	"Import styled components for React Native": {
-		"prefix": "rnimpstyle",
-		"description": "Import styled components variable for React Native",
+	"Create a styled file for React Native": {
+		"prefix": "rn-styled",
+		"description": "Create a styled RN file",
 		"body": [
-			"import styled from 'styled-components/native';$0"
-		]
-	},
-	"Create a styled component": {
-		"prefix": "stylecomp",
-		"description": "Create a component variable to use",
-		"body": [
-			"export const $1 = styled.$2`",
-			"\t$0",
-			"`"
+			"import styled from 'styled-components/native';\n",
+			"export const $1 = styled.$2`\n",
+			"\t$3\n",
+			"`;"
 		]
 	}
 }

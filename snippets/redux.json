@@ -1,0 +1,57 @@
+{
+	"Create a statefull redux component": {
+		"prefix": "rrc",
+		"description": "Create ReactJS Stateful Redux Component",
+		"body": [
+			"import React, { Component } from 'react';\n",
+			"import { bindActionCreators } from 'redux';\n",
+			"import { connect } from 'react-redux';\n",
+			"class $1 extends Component {\n",
+			"\trender() {\n",
+			"\t\treturn <div />\n",
+			"\t}\n",
+			"}\n",
+			"const mapStateToProps = state => ({});\n",
+			"// const mapDispatchToProps = dispatch =>\n",
+			"//   bindActionCreators(Actions, dispatch);\n",
+			"export default connect(\n",
+			"\tmapStateToProps,\n",
+			"\t// mapDispatchToProps\n",
+			")($1);"
+		]
+	},
+	"Create a stateless redux component": {
+		"prefix": "rrsc",
+		"description": "Create ReactJS Stateless Redux Component",
+		"body": [
+			"import React from 'react';\n",
+			"import { bindActionCreators } from 'redux';\n",
+			"import { connect } from 'react-redux';\n",
+			"const $1 = () => <div />;\n",
+			"const mapStateToProps = state => ({});\n",
+			"//const mapDispatchToProps = dispatch =>\n",
+			"//\t   bindActionCreators(Actions, dispatch);\nt",
+			"export default connect(\n",
+			"\tmapStateToProps,",
+			"\t// mapDispatchToProps",
+			")($1);"
+		]
+	},
+	"mapStateToProps": {
+		"prefix": "mapstatetoprops",
+		"description": "Create Redux method mapStateToProps",
+		"body": [
+			"const mapStateToProps = state => ({\n",
+			"\t${1}\n",
+			"});"
+		]
+	},
+	"mapDispatchToProps": {
+		"prefix": "mapdispatchtoprops",
+		"description": "Create Redux method mapDispatchToProps",
+		"body": [
+			"const mapDispatchToProps = dispatch =>\n",
+			"\tbindActionCreators(${1}, dispatch);"
+		]
+	}
+}

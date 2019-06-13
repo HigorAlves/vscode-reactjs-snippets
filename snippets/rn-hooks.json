@@ -1,0 +1,16 @@
+{
+	"React Hooks Stateful Component": {
+		"description": "Create React Hooks Component with State",
+		"prefix": "rnfhc",
+		"body": [
+			"import React, { useState } from 'react';\n",
+			"import {View} from 'react-native'\n",
+			"export default function $1() {\n",
+			"\tconst [$2, set$2] = useState();\n",
+			"\t\treturn (\n",
+			"\t\t\t<View />\n",
+			"\t\t);",
+			"}"
+		]
+	}
+}

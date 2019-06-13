@@ -3,6 +3,11 @@ All notable changes to the "vscode-reactjs-bootstrap-snippets" extension will be
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.0]
+- ❌Removed Typescript support (Will be added later)
+- 🎉NEW Hook Component
+- 🎉Redux Component
+
 ## [0.1.4]
 - TypeScript Support
 

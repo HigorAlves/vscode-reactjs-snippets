@@ -1,4 +1,12 @@
 # Complete React snippets to use in your workflow
+![](https://img.shields.io/visual-studio-marketplace/d/higoralves.vscode-reactjs-redux-router-snippets.svg)
+![](https://img.shields.io/github/package-json/v/HigorAlves/vscode-reactjs-snippets.svg)
+![](https://img.shields.io/github/license/higoralves/vscode-reactjs-snippets.svg)
+
+
+<p align="center">
+  <img width="260" src="https://i.imgur.com/muGg0uU.png">
+</p>
 
 ### This snippet is being created
 
@@ -7,42 +15,38 @@ A complete ReactJS and Native snippet to use.
 Easy shortcuts to help and expedite your code development.
 To be more easy we put a check on the table with all snippets and were (native or JS) its work.
 
+> For React Native the snippets is after `-` like rc - rnc (rnc is for React Native)
+
 ## Features
 
-| Snippet      |                        Description                         |      ReactJS       |       Native       |
-| :----------- | :--------------------------------------------------------: | :----------------: | :----------------: |
-| `clog`       |                       console.log()                        | :heavy_check_mark: | :heavy_check_mark: |
-| `cwarn`      |                       console.warn()                       | :heavy_check_mark: | :heavy_check_mark: |
-| `cerr`       |                      console.error()                       | :heavy_check_mark: | :heavy_check_mark: |
-| `imr`        |                import react to your project                | :heavy_check_mark: | :heavy_check_mark: |
-| `imrc`       |        import react to your project with component         | :heavy_check_mark: | :heavy_check_mark: |
-| `imp`        |                   import a lib or a file                   | :heavy_check_mark: | :heavy_check_mark: |
-| `ccc`        | Create a component that extends Component with constructor | :heavy_check_mark: | :heavy_check_mark: |
-| `cc`         |        Create a component that without constructor         | :heavy_check_mark: | :heavy_check_mark: |
-| `scomp`      |              Create React stateless component              | :heavy_check_mark: | :heavy_check_mark: |
-| `cwm`        |             [DEPRECATED] componentWillMount()              | :heavy_check_mark: | :heavy_check_mark: |
-| `cdm`        |                    componentDidMount()                     | :heavy_check_mark: | :heavy_check_mark: |
-| `scu`        |                  shouldComponentUpdate()                   | :heavy_check_mark: | :heavy_check_mark: |
-| `cwu`        |             [DEPRECATED] componentWillUpdate()             | :heavy_check_mark: | :heavy_check_mark: |
-| `cdu`        |                    componentDidUpdate()                    | :heavy_check_mark: | :heavy_check_mark: |
-| `cwu`        |                   componentWillUnmount()                   | :heavy_check_mark: | :heavy_check_mark: |
-| `cwrp`       |          [DEPRECATED] componentWillReceiveProps()          | :heavy_check_mark: | :heavy_check_mark: |
-| `state`      |               Create the state for the class               | :heavy_check_mark: | :heavy_check_mark: |
-| `impstyle`   |        Import styled component variable for ReactJS        | :heavy_check_mark: |                    |
-| `rnimpstyle` |     Import styled components variable for React Native     |                    | :heavy_check_mark: |
-| `stylecomp`  |                 Create a styled component                  | :heavy_check_mark: | :heavy_check_mark: |
+| Snippet              |               Description                | ReactJS | Native |
+| :------------------- | :--------------------------------------: | :-----: | :----: |
+| `rc` - `rnc`         |       Create a stateful Component        |    ✔    |   ✔    |
+| `rsc`- `rnsc`        |       Create a stateless Component       |    ✔    |   ✔    |
+| `rfc` - `rnfc`       |      Create a functional Component       |    ✔    |   ✔    |
+| `rfhc` - `rnfhc`     |      React Hooks Stateful Component      |    ✔    |   ✔    |
+| `rrc` - `rnrc`       | Create ReactJS Stateful Redux Component  |    ✔    |   ✔    |
+| `rrsc` - `rnrsc`     | Create ReactJS Stateless Redux Component |    ✔    |   ✔    |
+| `mapstatetoprops`    |   Create Redux method mapStateToProps    |    ✔    |   ✔    |
+| `mapdispatchtoprops` |  Create Redux method mapDispatchToProps  |    ✔    |   ✔    |
+| `cdm`                |           componentDidMount()            |    ✔    |   ✔    |
+| `scu`                |         shouldComponentUpdate()          |    ✔    |   ✔    |
+| `cdu`                |           componentDidUpdate()           |    ✔    |   ✔    |
+| `cwu`                |          componentWillUnmount()          |    ✔    |   ✔    |
+| `cwu`                |    [DEPRECATED] componentWillUpdate()    |    ✔    |   ✔    |
+| `cwm`                |    [DEPRECATED] componentWillMount()     |    ✔    |   ✔    |
+| `cwrp`               | [DEPRECATED] componentWillReceiveProps() |    ✔    |   ✔    |
 
 > Add all snippets here
 > 
 ## Requirements
 **Visual Studio Code**: ^1.29.0
 
-## Known Issues
+## Features
 - [x] Styled-Components
+- [x] Redux
 - [ ] React Router
 - [ ] React Navigation
-- [ ] Redux
-- [ ] Redux Saga
-- [ ] Duck Pattern
+- [ ] TypeScript Support
 
 ## Release Notes

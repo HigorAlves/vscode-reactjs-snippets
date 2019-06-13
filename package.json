@@ -8,7 +8,7 @@
 		"name": "Higor Alves",
 		"email": "higorhaalves@gmail.com"
 	},
-	"version": "0.1.3",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.29.0"
 	},
@@ -27,11 +27,11 @@
 			},
 			{
 				"language": "javascript",
-				"path": "./snippets/console.json"
+				"path": "./snippets/hooks.json"
 			},
 			{
 				"language": "javascriptreact",
-				"path": "./snippets/console.json"
+				"path": "./snippets/hooks.json"
 			},
 			{
 				"language": "javascript",
@@ -43,11 +43,35 @@
 			},
 			{
 				"language": "javascript",
-				"path": "./snippets/styled-components.json"
+				"path": "./snippets/redux.json"
 			},
 			{
 				"language": "javascriptreact",
-				"path": "./snippets/styled-components.json"
+				"path": "./snippets/redux.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/rn-common.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/rn-common.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/rn-hooks.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/rn-hooks.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/rn-redux.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/rn-redux.json"
 			},
 			{
 				"language": "typescript",
@@ -59,11 +83,11 @@
 			},
 			{
 				"language": "typescript",
-				"path": "./snippets/console.json"
+				"path": "./snippets/hooks.json"
 			},
 			{
 				"language": "typescriptreact",
-				"path": "./snippets/console.json"
+				"path": "./snippets/hooks.json"
 			},
 			{
 				"language": "typescript",
@@ -75,19 +99,35 @@
 			},
 			{
 				"language": "typescript",
-				"path": "./snippets/reactnative.json"
+				"path": "./snippets/redux.json"
 			},
 			{
 				"language": "typescriptreact",
-				"path": "./snippets/reactnative.json"
+				"path": "./snippets/redux.json"
 			},
 			{
 				"language": "typescript",
-				"path": "./snippets/styled-components.json"
+				"path": "./snippets/rn-common.json"
 			},
 			{
 				"language": "typescriptreact",
-				"path": "./snippets/styled-components.json"
+				"path": "./snippets/rn-common.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/rn-hooks.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/rn-hooks.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/rn-redux.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/rn-redux.json"
 			}
 		]
 	},

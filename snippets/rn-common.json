@@ -1,37 +1,40 @@
 {
 	"Create a stateful Component": {
-		"prefix": "rc",
+		"prefix": "rnc",
 		"description": "Create a Stateful component",
 		"body": [
 			"import React, {Component} from 'react';\n",
+			"import {View} from 'react-native'\n",
 			"class $1 extends Component{",
 			"\trender(){\n",
-			"\t\treturn<div/>;\n",
+			"\t\treturn<View/>;\n",
 			"\t}\n",
 			"}\n",
 			"export default $1;"
 		]
 	},
 	"Create a stateless Component": {
-		"prefix": "rsc",
+		"prefix": "rnsc",
 		"description": "Create a stateless component",
 		"body": [
 			"import React from 'react';\n",
+			"import {View} from 'react-native'\n",
 			"const $1 = () => {\n",
 			"\treturn(\n",
-			"\t\t<div/>\n",
+			"\t\t<View/>\n",
 			"\t)\n",
 			"export default $1;"
 		]
 	},
 	"Create a functional Component": {
-		"prefix": "rfc",
+		"prefix": "rnfc",
 		"description": "Create a functional component",
 		"body": [
 			"import React from 'react';\n",
+			"import {View} from 'react-native'\n",
 			"export default function $1 (){\n",
 			"\treturn(\n",
-			"\t\t<div/>\n",
+			"\t\t<View/>\n",
 			"\t)\n",
 			"}"
 		]
