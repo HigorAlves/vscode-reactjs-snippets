@@ -1,22 +1,22 @@
 {
-	"Create a styled file": {
-		"prefix": "r-styled",
+	"Create a styled file for ReactJS": {
+		"prefix": "styled-react",
 		"description": "Create a styled file",
 		"body": [
 			"import styled from 'styled-components';\n",
-			"export const $1 = styled.$2`\n",
+			"export const ${1:Container} = styled.${2:div}`\n",
 			"\t$3\n",
-			"`;"
+			"`;\n"
 		]
 	},
 	"Create a styled file for React Native": {
 		"prefix": "rn-styled",
-		"description": "Create a styled RN file",
+		"description": "Create a styled React Native component",
 		"body": [
 			"import styled from 'styled-components/native';\n",
-			"export const $1 = styled.$2`\n",
+			"export const  ${1:Container} = styled.${2:View}`\n",
 			"\t$3\n",
-			"`;"
+			"`;\n"
 		]
 	}
 }

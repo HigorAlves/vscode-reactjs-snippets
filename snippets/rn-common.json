@@ -5,12 +5,12 @@
 		"body": [
 			"import React, {Component} from 'react';\n",
 			"import {View} from 'react-native'\n",
-			"class $1 extends Component{",
+			"class ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} extends Component{",
 			"\trender(){\n",
 			"\t\treturn<View/>;\n",
 			"\t}\n",
 			"}\n",
-			"export default $1;"
+			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
 		]
 	},
 	"Create a stateless Component": {
@@ -19,11 +19,11 @@
 		"body": [
 			"import React from 'react';\n",
 			"import {View} from 'react-native'\n",
-			"const $1 = () => {\n",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {\n",
 			"\treturn(\n",
 			"\t\t<View/>\n",
 			"\t)\n",
-			"export default $1;"
+			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
 		]
 	},
 	"Create a functional Component": {
@@ -32,7 +32,7 @@
 		"body": [
 			"import React from 'react';\n",
 			"import {View} from 'react-native'\n",
-			"export default function $1 (){\n",
+			"export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} (){\n",
 			"\treturn(\n",
 			"\t\t<View/>\n",
 			"\t)\n",

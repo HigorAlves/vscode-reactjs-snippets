@@ -4,12 +4,11 @@
 		"description": "Create a Stateful component",
 		"body": [
 			"import React, {Component} from 'react';\n",
-			"class $1 extends Component{",
+			"export default class ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} extends Component {",
 			"\trender(){\n",
 			"\t\treturn<div/>;\n",
 			"\t}\n",
-			"}\n",
-			"export default $1;"
+			"}"
 		]
 	},
 	"Create a stateless Component": {
@@ -17,11 +16,11 @@
 		"description": "Create a stateless component",
 		"body": [
 			"import React from 'react';\n",
-			"const $1 = () => {\n",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} = () => {\n",
 			"\treturn(\n",
 			"\t\t<div/>\n",
 			"\t)\n",
-			"export default $1;"
+			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
 		]
 	},
 	"Create a functional Component": {
@@ -29,7 +28,7 @@
 		"description": "Create a functional component",
 		"body": [
 			"import React from 'react';\n",
-			"export default function $1 (){\n",
+			"export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} (){\n",
 			"\treturn(\n",
 			"\t\t<div/>\n",
 			"\t)\n",

@@ -1,10 +1,10 @@
 {
 	"React Hooks Stateful Component": {
 		"description": "Create React Hooks Component with State",
-		"prefix": "rfhc",
+		"prefix": "rhc",
 		"body": [
 			"import React, { useState } from 'react';\n",
-			"export default function $1() {\n",
+			"export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}() {\n",
 			"\tconst [$2, set$2] = useState();\n",
 			"\t\treturn (\n",
 			"\t\t\t<div />\n",
