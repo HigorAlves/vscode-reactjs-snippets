@@ -20,6 +20,7 @@
 			"\treturn(\n",
 			"\t\t<div/>\n",
 			"\t)\n",
+			"}\n",
 			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
 		]
 	},
